@@ -1,0 +1,38 @@
+.venv/
+work/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+credentials.json
+redactions.json
+all_keys.json
+*.db
+*.sqlite
+*.jsonl
+*.jsonl.gz
+
+# Runtime private material
+.wechat-cli/
+*.db-*
+*.sqlite-*
+.env
+.env.*
+*.log
+*.keystore
+*.pem
+*.pfx
+
+# Chat-model keys and local contact bindings
+autoreply.json
+
+# Personal prompt, diagnostics and private working material
+persona-prompt.txt
+.private/
+*.private.*
+screenshots/
+*.bak
+*.key
+*.p12
+*.zip

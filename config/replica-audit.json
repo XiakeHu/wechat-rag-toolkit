@@ -1,0 +1,9 @@
+{
+  "project": "https://github.com/fanyuantaier/wechatauto-replica",
+  "commit": "bc2e6f2461330eb1a53996d2f2afc18416376b52",
+  "version": "1.2.9",
+  "source_hashes": {
+    "accessibility.py": "0a6619e6801fdf0f51477385b9f2837cd2e976e2a39c57e4f5f182c63cbb0145"
+  },
+  "local_modification": "Reachability trim; no activation/rollback checks removed"
+}

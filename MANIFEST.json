@@ -1,0 +1,325 @@
+{
+  "paths_relative_to": "repository root",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 19,
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 437,
+      "sha256": "b13ca48c4299c2351a119fdbb2f46f50dfc92544422148c2e670606ff812744f"
+    },
+    {
+      "path": "AUTOREPLY.md",
+      "bytes": 7704,
+      "sha256": "9aa0961036b8d3f6f8d9aedd1e820a818463d18ef29047dd7d9e20085ca1964b"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 2672,
+      "sha256": "bb083099eaaf1170f6d2358586a589a945cc85b3d0142772c6bdc8d10afb8124"
+    },
+    {
+      "path": "GETTING_STARTED.md",
+      "bytes": 6691,
+      "sha256": "dfc0bb0b90a737321aa72805e1821ebb4cdb0d04d84c2dfd878da89dfe96acd7"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 2314,
+      "sha256": "a6dbf5606a614fd7f3f80de69f2298f2fd057acd3b2965e03681d42489dd59b6"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 2210,
+      "sha256": "3138f6f8e1d37a14bfd43e72dd9cd60734617959fb60d63041661a77873e6581"
+    },
+    {
+      "path": "README.md",
+      "bytes": 13584,
+      "sha256": "a7b33e81154bd0cd729b3571c7dbc2b898d6f8ad0632350e93b7be2c04753bf1"
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 3468,
+      "sha256": "6a703ad5badcfaaaf517c2fe9f5f63e0fc5a851395c1b80989df2817939078c1"
+    },
+    {
+      "path": "config/autoreply.example.json",
+      "bytes": 593,
+      "sha256": "21b61dc1c806ae4646cb8ccb847a23a4b5f8e6bdcd5d3c060e8e8ff8589bb5d2"
+    },
+    {
+      "path": "config/credentials.example.json",
+      "bytes": 81,
+      "sha256": "467aaff07fd6081befba90e6b2dd5885069fd307888459e7b89807fb650988fd"
+    },
+    {
+      "path": "config/persona-prompt.example.txt",
+      "bytes": 750,
+      "sha256": "d7f7063ec274dbc198d694387f6bf0cea18cebc62cb54f0d5e4b4658df7dcb43"
+    },
+    {
+      "path": "config/redactions.example.json",
+      "bytes": 99,
+      "sha256": "e600918fefa63e0602320b34dc88d58ad20b59f28e3cbb581dbcd67439f87dce"
+    },
+    {
+      "path": "config/replica-audit.json",
+      "bytes": 349,
+      "sha256": "1a24f85f5fb69257a0544324a1bd1c1d80feb813c366709315aa3a7708a821bf"
+    },
+    {
+      "path": "requirements-autoreply.txt",
+      "bytes": 353,
+      "sha256": "cf76879caa07d09ac2f0e180213da6537cd39f9e10aa2de4b96a31fcaef78768"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 214,
+      "sha256": "38e50b52ee7b978c942401d6bec7af3d88055bf34ae47ae36004a38647a02d35"
+    },
+    {
+      "path": "setup.ps1",
+      "bytes": 982,
+      "sha256": "d92702087665e2a42b1ac3dbfe1b69c44a4fee430fce76d515b6eb0422f1eb11"
+    },
+    {
+      "path": "tests/test_autoreply.py",
+      "bytes": 20744,
+      "sha256": "4105bcbf91088f26a966c2ea1c73d478ad378f4a0614c168bd7a91fc885976f1"
+    },
+    {
+      "path": "tests/test_autoreply_runtime.py",
+      "bytes": 6415,
+      "sha256": "5dcf30230c345f9626b185127232201897473b9e07a8dcd80041e554171ea455"
+    },
+    {
+      "path": "tests/test_bundled_dependencies.py",
+      "bytes": 1590,
+      "sha256": "0360f23d684940253d1d8277283bcd03b5d47e9c5735db040a9b426b35e63503"
+    },
+    {
+      "path": "tests/test_clean_options.py",
+      "bytes": 2349,
+      "sha256": "7aff1706cbb13b5b66c711c30565bf868c8bf76a5bf3ec04dd85b29cc52a5c8c"
+    },
+    {
+      "path": "tests/test_key_logging.py",
+      "bytes": 6637,
+      "sha256": "73ed70c52c9822009797586b62a72a74e11d49a56845ccf2ee3236b1aff0579b"
+    },
+    {
+      "path": "tests/test_native_uia_sender.py",
+      "bytes": 3210,
+      "sha256": "b85f12bef611f0455ef924657619d991e8b406063e84b6d7b08aad568ff982a5"
+    },
+    {
+      "path": "tests/test_portable_pipeline.py",
+      "bytes": 11661,
+      "sha256": "ce8920b5af165db09d4c5f4055bc63156175aa360d600a7c9ec74e3625ce7c96"
+    },
+    {
+      "path": "tools/autoreply_core.py",
+      "bytes": 23603,
+      "sha256": "289db4a9686464c87df2b8fc06ff8d0796045fb9f1ec68c495854257789b69a5"
+    },
+    {
+      "path": "tools/autoreply_metrics.py",
+      "bytes": 1796,
+      "sha256": "9d129d92baa09007f70512b9ce79f2d015682d78879c4f23171e5650009ce75c"
+    },
+    {
+      "path": "tools/autoreply_runtime.py",
+      "bytes": 2165,
+      "sha256": "7cf90b9112d6fe5b127f9ff08714592339b76145df9af6a7c9991a6047682ec4"
+    },
+    {
+      "path": "tools/bootstrap_vendor.py",
+      "bytes": 835,
+      "sha256": "5c4cf67e9b6ac7b0e49dec67ac812376d2db1ac20a3251ac88cc501db6de97d6"
+    },
+    {
+      "path": "tools/build_persona_episodes.py",
+      "bytes": 14773,
+      "sha256": "8fac0e3aa5003bf10b2da1a7509fab750dbcb075ef71f58c6c7de68cb55a8e4f"
+    },
+    {
+      "path": "tools/clean_wechat_persona.py",
+      "bytes": 18357,
+      "sha256": "f5e17b4c486630cecf4efeb8f807846efbf0dd7f14af0439e319ae7a297d3e56"
+    },
+    {
+      "path": "tools/export_for_cleaning.py",
+      "bytes": 6307,
+      "sha256": "5a7d3591e7919aae0edd3fdf932f2e3614837d202b8afa572229a065dd2ea845"
+    },
+    {
+      "path": "tools/native_uia_sender.py",
+      "bytes": 4134,
+      "sha256": "054db6e022204db5fa02b257d1d6a0fead15d5cf736e5eb144ed9ab319f6e3a2"
+    },
+    {
+      "path": "tools/replica_integrity.py",
+      "bytes": 775,
+      "sha256": "4be928ea93129e64b0cdf8f148aa4f3c82f6ac002f8791b29d5c5362286e96af"
+    },
+    {
+      "path": "tools/uia_activation.py",
+      "bytes": 4554,
+      "sha256": "967de025638e55f61ddf197dfb3d05796fb8bbb108102914725a1665ad779b88"
+    },
+    {
+      "path": "tools/vectorize_persona_rag.py",
+      "bytes": 5731,
+      "sha256": "3203cb494f1e9b55182b182c797b63b6de18cca2d856484304edc4d803cd8806"
+    },
+    {
+      "path": "tools/wechat_autoreply.py",
+      "bytes": 13904,
+      "sha256": "eec2a083cdce016f14848cc50a25647cba27625dca8b91506a000b1e74e76dce"
+    },
+    {
+      "path": "tools/wechat_reader.py",
+      "bytes": 241,
+      "sha256": "d775c2b9dd996e6e3a1f9497ce2ba4ae1c2fa39686e1669824315de31a665f0c"
+    },
+    {
+      "path": "vendor/README.md",
+      "bytes": 304,
+      "sha256": "0cbe29e3592211f270c82a74506dcc562a85cdd6178b66f031d910501bf18934"
+    },
+    {
+      "path": "vendor/SOURCES.json",
+      "bytes": 7088,
+      "sha256": "e6350cacf7d072ac25cdeb7680a9f77c34909dec9da1f8ed3ebe732396b27d34"
+    },
+    {
+      "path": "vendor/wechat-cli/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "vendor/wechat-cli/pyproject.toml",
+      "bytes": 470,
+      "sha256": "b67bae6d45587bd24114b68415d4933aea9a22962884cf4e816ed18f9dcd2a73"
+    },
+    {
+      "path": "vendor/wechat-cli/wechat_cli/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vendor/wechat-cli/wechat_cli/commands/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vendor/wechat-cli/wechat_cli/commands/contacts.py",
+      "bytes": 3241,
+      "sha256": "2c0357d871b55b6c472d72d2f609937593004da77dcd32a8355daf2ac5b15210"
+    },
+    {
+      "path": "vendor/wechat-cli/wechat_cli/commands/init.py",
+      "bytes": 3326,
+      "sha256": "1884dbe2cc6916be901cbdf75bd3b23ed38477ec83d4561e5b669374d0ecf368"
+    },
+    {
+      "path": "vendor/wechat-cli/wechat_cli/core/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vendor/wechat-cli/wechat_cli/core/config.py",
+      "bytes": 8555,
+      "sha256": "6096740e55c254b29cbd17af6ad2f6f43fbe8ebd19980cd5201420b370156778"
+    },
+    {
+      "path": "vendor/wechat-cli/wechat_cli/core/contacts.py",
+      "bytes": 6523,
+      "sha256": "1c4ca0be8d61ee286e002df22604962f045f87e96928a1f5d9fec1ba576f57ff"
+    },
+    {
+      "path": "vendor/wechat-cli/wechat_cli/core/context.py",
+      "bytes": 1461,
+      "sha256": "3ee4d93a5cf6165203366477763998c6e11997a81296159705ee81022e2d7726"
+    },
+    {
+      "path": "vendor/wechat-cli/wechat_cli/core/crypto.py",
+      "bytes": 2688,
+      "sha256": "2807410c638478da0dddb4b6618a0f78ee6828aa6c4e5bafd56ae48bb7202a64"
+    },
+    {
+      "path": "vendor/wechat-cli/wechat_cli/core/db_cache.py",
+      "bytes": 3301,
+      "sha256": "35ab9140a3ed876500a405f6004deb8eb85beb316dc9f37efd9c49cf5f7396b4"
+    },
+    {
+      "path": "vendor/wechat-cli/wechat_cli/core/key_utils.py",
+      "bytes": 1922,
+      "sha256": "7efb4e1eb4c6db7d8e72e641fe79a75139ddd73af09d0a1416381dccfe671f50"
+    },
+    {
+      "path": "vendor/wechat-cli/wechat_cli/core/messages.py",
+      "bytes": 29803,
+      "sha256": "2287e3f3e8ded5738cec8d67873d67c5c1ac0a08ec6b75276f2bfb05f50a9807"
+    },
+    {
+      "path": "vendor/wechat-cli/wechat_cli/keys/__init__.py",
+      "bytes": 469,
+      "sha256": "a2b6cf53924ec491c0cd632405c58f0c81b1171f4c69538a963fb12de1160621"
+    },
+    {
+      "path": "vendor/wechat-cli/wechat_cli/keys/common.py",
+      "bytes": 8570,
+      "sha256": "cb195f391fdb18e73f314df41c528bd89bcaeeaba9b195be70771b7dcd2f811a"
+    },
+    {
+      "path": "vendor/wechat-cli/wechat_cli/keys/scanner_windows.py",
+      "bytes": 15034,
+      "sha256": "d20a8b340e2112cd5f4b630d9d05fc00d56903e86b8cc0034850e791a202326b"
+    },
+    {
+      "path": "vendor/wechat-cli/wechat_cli/main.py",
+      "bytes": 1671,
+      "sha256": "74755ef11f1eb0fde317db6acea3e9817673f5e02581de9aa43620398d687492"
+    },
+    {
+      "path": "vendor/wechat-cli/wechat_cli/output/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vendor/wechat-cli/wechat_cli/output/formatter.py",
+      "bytes": 709,
+      "sha256": "66922bf69ade0e76344a7aa0fb2a0a2bf67b323f58609d48267f93f60cc7e8ab"
+    },
+    {
+      "path": "vendor/wechatauto-replica/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "vendor/wechatauto-replica/wechatauto/__init__.py",
+      "bytes": 142,
+      "sha256": "852fa31f6959c4eb49c202586c70e999233792d3bfdfeed811eae1ad9bd6957a"
+    },
+    {
+      "path": "vendor/wechatauto-replica/wechatauto/accessibility.py",
+      "bytes": 21305,
+      "sha256": "0a6619e6801fdf0f51477385b9f2837cd2e976e2a39c57e4f5f182c63cbb0145"
+    },
+    {
+      "path": "vendor/wechatauto-replica/wechatauto/logger.py",
+      "bytes": 328,
+      "sha256": "0ac3a08d858f4639c8a8cbd3346b7601afde314c45a63c366daa23e88c0040af"
+    }
+  ]
+}

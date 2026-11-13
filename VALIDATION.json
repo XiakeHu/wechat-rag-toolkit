@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-13",
+  "platform": "Windows x64",
+  "python": "3.11",
+  "installation": {
+    "new_isolated_environment": true,
+    "base_requirements_installed": true,
+    "optional_reply_requirements_installed": true,
+    "pip_check": "passed",
+    "fresh_physical_machine_tested": false,
+    "bundled_sources_tested_without_external_distributions": true,
+    "local_cli_editable_registration": "passed"
+  },
+  "checks": {
+    "unit_tests": 63,
+    "unit_tests_passed": 63,
+    "synthetic_pipeline": "passed: export, redaction, date selection, multi-turn episodes, dual vectors and resumable no-network reuse",
+    "cli_help_entry_points": 5,
+    "dependency_source_hashes": "passed",
+    "python_syntax": "passed",
+    "local_markdown_links": "passed",
+    "configuration_credentials": "blank",
+    "automatic_send_defaults": false
+  },
+  "release_contents": {
+    "third_party_source": true,
+    "git_history_or_metadata": false,
+    "real_accounts_or_contact_bindings": false,
+    "api_keys_or_database_keys": false,
+    "chat_records_or_vectors": false,
+    "screenshots_or_logs": false,
+    "virtual_environments_or_binaries": false
+  },
+  "scope": {
+    "real_chat_export_this_release": false,
+    "real_model_calls_this_release": false,
+    "real_messages_sent_this_release": 0,
+    "auto_reply_listener_running": false,
+    "privacy_review": "known private values, account identifiers, machine paths, file allowlist and empty templates checked; not a complete security audit"
+  },
+  "limitations": [
+    "Only Windows workflow validated.",
+    "Fresh environment tested on the existing machine, not a separate PC.",
+    "UIA foreground send previously verified in controlled local tests; unattended long-running operation not accepted.",
+    "Cloud availability, model style fidelity and other WeChat versions require independent testing.",
+    "Media placeholders only; RMFH backup containers unsupported."
+  ],
+  "documentation": {
+    "overview": "purpose, feature matrix, two workflows, fictional multi-turn example, input/output and limitations",
+    "step_by_step_guide": "GETTING_STARTED.md",
+    "workflow_diagrams": "two Mermaid blocks syntax-validated and visually checked",
+    "local_links": "passed",
+    "runtime_changes_this_documentation_update": false
+  },
+  "bundling": {
+    "reader": "Windows init/contacts subset, validated-key saving retained",
+    "activation": "reachable routines only, rollback and candidate checks retained",
+    "network_fetch_of_third_party_projects_required": false,
+    "ordinary_python_dependencies_required": true,
+    "setup_script": "setup.ps1",
+    "readme_modified": false,
+    "live_wechat_operations": false
+  },
+  "cleanup_and_key_output_fix": {
+    "removed_files": 12,
+    "legacy_single_vector_embed_removed": true,
+    "synthetic_leak_trigger_reproduced_before_fix": true,
+    "key_output_regression_tests": 7,
+    "covered_paths": [
+      "Config.Cipher direct candidate",
+      "Config.Cipher complete extraction",
+      "legacy raw 64/96/long hex extraction",
+      "cross verification",
+      "partial/complete local save",
+      "invalid candidate and empty result",
+      "init exception echo"
+    ],
+    "full_keys_and_salts_still_saved_locally": true,
+    "sensitive_values_absent_from_captured_output": true,
+    "independent_patch_review": "no concrete bypass or regression found in reviewed paths",
+    "real_process_scan_or_message_send": false,
+    "readme_modified": false
+  }
+}

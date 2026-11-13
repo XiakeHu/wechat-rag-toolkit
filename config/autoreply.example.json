@@ -1,0 +1,31 @@
+{
+  "enabled": false,
+  "allow_casual_self_state": false,
+  "wechat_config": "",
+  "self_username": "",
+  "persona_prompt_file": "",
+  "chat": {
+    "endpoint": "",
+    "model": "",
+    "token": ""
+  },
+  "embedding": {
+    "embedding_endpoint": "",
+    "embedding_model": "",
+    "embedding_token": ""
+  },
+  "poll_seconds": 1,
+  "merge_seconds": 2,
+  "generation_workers": 2,
+  "manual_pause_seconds": 300,
+  "max_message_age_seconds": 180,
+  "contacts": [
+    {
+      "username": "",
+      "display_name": "",
+      "enabled": false,
+      "auto_send": false,
+      "index": ""
+    }
+  ]
+}

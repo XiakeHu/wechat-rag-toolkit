@@ -1,0 +1,47 @@
+WeChat RAG Toolkit
+
+The original scripts, tests and documentation in this repository are distributed
+under Apache License 2.0. Third-party copyrights and licenses are not replaced.
+
+Bundled source (vendor/wechat-cli; Python package and scanner source only):
+  TheRaptors/wechat-cli, version 0.2.6
+  https://github.com/TheRaptors/wechat-cli
+  Revision: 6770e1e0c0847e193fb3e3b22e4cd6b93de9aacc
+  Declared license: Apache-2.0
+
+That project acknowledges:
+  freestylefly/wechat-cli
+  ylytdeng/wechat-decrypt
+  TANGandXUE/wcdb-key-tool
+
+Local export, cleaning, redaction, multi-turn segmentation and vector-index
+integration are the additions of this repository. The WeChat key extraction
+and database decryption implementation is provided by the external project.
+
+See PROVENANCE.md for provenance and license-verification limits.
+This project is not affiliated with or endorsed by Tencent or WeChat.
+
+Optional UI automation dependency (installed separately):
+  yinkaisheng/Python-UIAutomation-for-Windows
+  https://github.com/yinkaisheng/Python-UIAutomation-for-Windows
+  Declared license: Apache-2.0
+
+Bundled accessibility helper (vendor/wechatauto-replica):
+  fanyuantaier/wechatauto-replica 1.2.9
+  https://github.com/fanyuantaier/wechatauto-replica
+  Revision: bc2e6f2461330eb1a53996d2f2afc18416376b52
+  License: Apache-2.0
+
+Bundling modifications by this project:
+  - wechat-cli: Windows init/contacts subset retained; other platform scanners and extra CLI commands omitted; secret-value diagnostic output removed.
+  - wechatauto-replica: only the reachable accessibility routines are included. The local
+    __init__.py and logger.py are project-owned minimal adapters, replacing eager
+    package imports and upstream global logging side effects. Other upstream
+    senders, OCR drivers and media/database modules are not included.
+  - Original upstream LICENSE files are included beside each source subset.
+  - Exact copied source hashes and revisions are recorded in vendor/SOURCES.json.
+
+Local modifications (2026-11-13): remove unused platform/CLI/activation interfaces;
+remove key/salt values and raw exception details from key-extraction output;
+preserve validation and local JSON saving; stop the cross-verification iterator
+after inserting a validated key. Original and local file hashes are retained.

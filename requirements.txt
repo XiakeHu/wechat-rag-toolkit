@@ -1,0 +1,7 @@
+# Versions exercised on the original Windows machine.
+click==8.1.8
+pycryptodome==3.23.0
+zstandard==0.23.0
+# Build-time dependency required by the external project's pyproject.toml.
+setuptools==75.8.0
+wheel==0.45.1
